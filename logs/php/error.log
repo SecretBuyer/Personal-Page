@@ -1,0 +1,13 @@
+[26-Aug-2020 11:25:36 UTC] PHP Parse error:  syntax error, unexpected '"><strong> Agility </strong> U' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Volumes/Files/340_Projects/personal-site/app/public/wp-content/themes/personal-site/header.php on line 10
+[26-Aug-2020 11:26:04 UTC] PHP Parse error:  syntax error, unexpected '"><strong>Fictional</strong> U' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Volumes/Files/340_Projects/personal-site/app/public/wp-content/themes/personal-site/header.php on line 10
+[26-Aug-2020 11:34:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sget_bloginfo() in /Volumes/Files/340_Projects/personal-site/app/public/wp-content/themes/personal-site/header.php:9
+Stack trace:
+#0 /Volumes/Files/340_Projects/personal-site/app/public/wp-includes/template.php(730): require_once()
+#1 /Volumes/Files/340_Projects/personal-site/app/public/wp-includes/template.php(676): load_template('/Volumes/Files/...', true, Array)
+#2 /Volumes/Files/340_Projects/personal-site/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Volumes/Files/340_Projects/personal-site/app/public/wp-content/themes/personal-site/index.php(1): get_header()
+#4 /Volumes/Files/340_Projects/personal-site/app/public/wp-includes/template-loader.php(106): include('/Volumes/Files/...')
+#5 /Volumes/Files/340_Projects/personal-site/app/public/wp-blog-header.php(19): require_once('/Volumes/Files/...')
+#6 /Volumes/Files/340_Projects/personal-site/app/public/index.php(17): require('/Volumes/Files/...')
+#7 {main}
+  thrown in /Volumes/Files/340_Projects/personal-site/app/public/wp-content/themes/personal-site/header.php on line 9
